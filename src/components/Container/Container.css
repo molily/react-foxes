@@ -1,0 +1,25 @@
+.Container,
+.Container__main,
+.Container__header,
+.Container__body,
+.Container__aside {
+  outline: 5px solid blue;
+  padding: 15px;
+}
+
+.Container {
+  display: flex;
+}
+
+.Container__main,
+.Container__aside {
+  flex: 1;
+}
+
+.Container__main {
+}
+
+.Container__aside {
+  width: 20%;
+  margin-left: 15px;
+}
